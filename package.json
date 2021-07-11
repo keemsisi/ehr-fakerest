@@ -1,0 +1,24 @@
+{
+  "name": "mockup-server",
+  "version": "1.0.0",
+  "description": "testing server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install -g json-server && json-server --no-cors --watch db.json",
+    "": "npm install -g json-server && npm start-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "keemsisi"
+  },
+  "keywords": [
+    "mocking",
+    "server"
+  ],
+  "author": "Keemsisi",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
